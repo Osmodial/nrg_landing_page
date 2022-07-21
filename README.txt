@@ -1,0 +1,1 @@
+This is the landing page for the profile of Neil Rozas, you can find information related to skills, works and projects that can be useful for your will
