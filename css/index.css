@@ -19,7 +19,7 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    border: 0;
+    margin: 0rem;
 }
 
 html {
@@ -52,7 +52,7 @@ header img {
     width: 90%;
     min width: 14.25rem;
     max-width: 56.25rem;
-    height: 13.625rem;
+    height: 30%;
     text-align: center;
     align-self: center;
 }
@@ -100,3 +100,52 @@ header img {
     margin-left: 22%;
     background-image: url('../assets/icons/down-arrow-svgrepo-com.svg');
 }
+
+main {
+    width: 100%;
+    height: auto;
+    background-color:lavender;
+}
+
+.main_exchange_container {
+    width: 100%;
+    height: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.main_exchange_container__title {
+    width: 90%;
+    min-width: 18rem;
+    max-width: 56rem;
+    margin: 0 auto;
+}
+
+.main_exchange_container .background_img {
+    width: 12.5rem;
+    height: 12.5rem;
+    margin: 1rem auto;
+    background-image: url(https://i.pinimg.com/564x/c0/bd/9a/c0bd9ae5d2e6c575a8e3e4174f7857de.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0.3rem;
+}
+
+.main_exchange_container h2 {
+    margin: 1.9rem auto;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--redned-black)
+}
+
+.main_exchange_container p {
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: var(--ligth-grey);
+}
+
