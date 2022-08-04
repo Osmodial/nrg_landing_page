@@ -104,10 +104,11 @@ header img {
 main {
     width: 100%;
     height: auto;
-    background-color:lavender;
+    background: linear-gradient(3600deg,#B3B6B5 5%, #eeeeee 100%);
+    /*background-color:lavender;*/
 }
 
-.main_exchange_container {
+.main_plans_container {
     width: 100%;
     height: auto;
     padding-top: 3rem;
@@ -115,14 +116,14 @@ main {
     text-align: center;
 }
 
-.main_exchange_container__title {
+.main_plans_container__title {
     width: 90%;
     min-width: 18rem;
     max-width: 56rem;
     margin: 0 auto;
 }
 
-.main_exchange_container .background_img {
+.main_plans_container .background_img {
     width: 12.5rem;
     height: 12.5rem;
     margin: 1rem auto;
@@ -133,7 +134,7 @@ main {
     border-radius: 0.3rem;
 }
 
-.main_exchange_container h2 {
+.main_plans_container h2 {
     margin: 1.9rem auto;
     font-size: 2.4rem;
     font-weight: bold;
@@ -141,7 +142,7 @@ main {
     color: var(--redned-black)
 }
 
-.main_exchange_container p {
+.main_plans_container p {
     margin-bottom: 1.5rem;
     font-size: 1.4rem;
     font-weight: 500;
