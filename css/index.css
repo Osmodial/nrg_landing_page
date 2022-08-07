@@ -267,7 +267,7 @@ main {
     text-align: center;
 }
 
-.main-formation__container div {
+.main-formation__container article {
     width: 90%;
     margin: 1rem auto;
     border-radius: 1rem;
