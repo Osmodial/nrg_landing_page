@@ -150,3 +150,102 @@ main {
     color: var(--ligth-grey);
 }
 
+.main-table__container {
+    width: 70%;
+    min-width: 14.5rem;
+    height: 100%;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+}
+
+.main-table__container .chart-title {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: #9d0b28;
+}
+
+.main-courses-chart {
+    width: 100%;
+    min-width: 12rem;
+    margin: 0 auto;
+}
+
+.main-courses-chart table {
+    width: 100%;
+}
+
+.main-courses-chart td {
+    width: 33%;
+    height: auto;
+    font-size: 1.4rem;
+    font-weight: 500;
+    background-color: white;
+    line-height: 1.9rem;
+    color:#B3B6B5;
+    padding: 0.6rem;
+}
+
+.main-courses-chart .table--coin-side {
+    font-size: 2rem;
+    font-weight: normal;
+    line-height: 1.7rem;
+    color: #B3B6B5;
+}
+
+.main-courses-chart .table__top-left {
+    border-radius: 1rem 0 0 0;
+}
+
+.main-courses-chart .table__top-right {
+    border-radius: 0 1rem 0 0;
+}
+
+.main-courses-chart .table__bottom-left {
+    border-radius: 0 0 0 1rem;
+}
+
+.main-courses-chart .table__bottom-right {
+    border-radius: 0 0 1rem 0;
+}
+
+.usd-icon span {
+    width: 1rem;
+    height: 1rem;
+    display: inline-flex;
+    background-image: url('../assets/icons/usd.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.btc-icon span {
+    width: 1rem;
+    height: 1rem;
+    display: inline-flex;
+    background-image: url('../assets/icons/btc.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.main-table__container .actualization-date {
+    width: 50%;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    background-color: var(--dark-red);
+    border-radius: 1rem;
+    justify-content: center;
+    align-content: center;
+}
+
+.actualization-date p {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color:#B3B6B5;
+    margin: auto;
+    padding: 0.4rem;
+}
