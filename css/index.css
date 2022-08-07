@@ -249,3 +249,45 @@ main {
     margin: auto;
     padding: 0.4rem;
 }
+
+.actualization-date b {
+    color: black;
+}
+
+.main-formation__section {
+    background-color: #2f1b41;
+    width: 100%;
+    height: auto;
+    color:crimson;
+    padding: 1rem;
+}
+
+.main-formation__section h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.main-formation__container div {
+    width: 90%;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    background: linear-gradient(350deg,#2f1b41 20%, #46466e 100%);
+    padding: 1rem;
+}
+
+.main-formation__container h3 {
+    color: #eeeeee;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.main-formation__container p {
+    color: #B3B6B5;
+    margin: 1rem;
+    line-height: 0.5rem;
+}
+
+.main-formation__container table {
+    color: #B3B6B5;
+    margin: 1rem;
+}
