@@ -370,3 +370,44 @@ main {
     border-radius: 1rem;
     box-shadow: 0 0.2rem 0.6rem rgba(89, 73, 30, 0.16);
 }
+
+.todos-los-planes--section .solicitado {
+    position: absolute;
+    width: 14rem;
+    height: 3rem;
+    background-color: var(--light-red);
+    border-radius: 0.7rem;
+    color: white;
+    top: -1.3rem;
+    left: calc(50% - 7rem);
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 3%;
+}
+
+.todos-los-planes--section .plan-card--title {
+    padding-top: 3rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+
+.todos-los-planes--section .plan-card--price {
+    padding:  0.4rem 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 5rem;
+}
+
+.plan-card--price span{
+    font-size: 1.2rem;
+    font-weight: 300;
+    position: absolute;
+    top: calc(20%);
+    left: calc(45% - 3rem);
+}
+
+.todos-los-planes--section .plan-card--service {
+    font-size: 1.2rem;
+    color #757575
+}
