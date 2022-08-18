@@ -421,7 +421,7 @@ main {
 }
 
 .plan-card--contenido-ca {
-    width: 12rem;
+    width: 13rem;
     height: 3rem;
     margin-top: 1rem;
     background-color: #eeeeee;
@@ -430,7 +430,8 @@ main {
     font-size: 1rem;
     font-weight: bold;
     line-height: 1.8rem;
-    font-family: "DM Sans", sans-serif,
+    font-family: "DM Sans", sans-serif;
+    padding: 0.1rem;
 }
 
 .plans-container--card .plan-card--contenido-ca span {
@@ -438,9 +439,9 @@ main {
     width: 1.5rem;
     height: 1.5rem;
     background-image: url("../assets/images/uranus.png");
-    background-position-x: -1%;
-    background-position-y: center;
     background-size: 100%;
     background-repeat: no-repeat;
+    vertical-align: text-bottom;
 }
 
+c
