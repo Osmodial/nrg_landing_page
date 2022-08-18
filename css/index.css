@@ -407,7 +407,40 @@ main {
     left: calc(45% - 3rem);
 }
 
+.plan-card--price #fisiologia--card {
+    top: 7.6rem;
+    left: calc(45% - 5rem);
+}
+
+.plan-card--price #meditacion--card {
+    top: calc(20% - -1.8rem);
+}
 .todos-los-planes--section .plan-card--service {
     font-size: 1.2rem;
     color #757575
 }
+
+.plan-card--contenido-ca {
+    width: 12rem;
+    height: 3rem;
+    margin-top: 1rem;
+    background-color: #eeeeee;
+    border: solid 0.2rem var(--light-red);
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    font-family: "DM Sans", sans-serif,
+}
+
+.plans-container--card .plan-card--contenido-ca span {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url("../assets/images/uranus.png");
+    background-position-x: -1%;
+    background-position-y: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
