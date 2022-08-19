@@ -358,14 +358,25 @@ main {
     font-weight: 300;
 }
 
+.plans-container--slider {
+    display: flex;
+    height: auto;
+    padding: 1rem;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+
+}
+
 .plans-container--card {
     position: relative;
+    scroll-snap-align: center;
     width: 70%;
     min-width: 20rem;
     max-width: 3rem;
-    height: 20rem;
-    margin: 4rem auto 0;
-    padding: 0 1rem;
+    height: auto;
+    margin: 2rem 1rem;
+    padding: 1rem;
     background-color: white;
     border-radius: 1rem;
     box-shadow: 0 0.2rem 0.6rem rgba(89, 73, 30, 0.16);
@@ -444,4 +455,3 @@ main {
     vertical-align: text-bottom;
 }
 
-c
